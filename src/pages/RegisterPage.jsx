@@ -45,7 +45,7 @@ const RegisterPage = () => {
               <label htmlFor="phone">Phone </label>
               <input {...register('phone')} type="number" id="phone" />
             </div>
-            <button className='register__btn'>Submit</button>
+            <button className='register__btn'>Register</button>
           </form>
         </div>
       </div>

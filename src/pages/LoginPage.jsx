@@ -9,6 +9,10 @@ const LoginPage = () => {
     const submit = data => {
         const url =  'https://e-commerce-api-v2.academlo.tech/api/v1/users/login'
         loginUser(url, data)
+        reset({
+            email: '',
+            password: ''
+        })
     }
 
   return (
