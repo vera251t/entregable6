@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 20px;
     background-color: white;
     border-bottom: 1px solid #ccc;
@@ -23,7 +24,6 @@
 .header__ul li a {
     text-decoration: none;
     color: gray;
-    border-left: 1px solid #ccc;
 }
 @media (min-width: 700px) {
     .header__title a {

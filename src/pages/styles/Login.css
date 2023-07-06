@@ -1,8 +1,5 @@
 .login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 57px 0;
+    margin-top: 23px;
 }
 .login__container {
     z-index: 99;
