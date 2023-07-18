@@ -9,7 +9,7 @@
   text-align: center;
   background-color: var(--color-white);
   width: 300px;
-  height: 250px;
+  height: 350px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
 }
@@ -20,11 +20,16 @@
   margin-bottom: 10px;
 }
 .log__content p {
-  margin-bottom: 10px;
-}  
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.log__p {
+  color: #9e8686;
+}
 .log__btn {
   background-color: var(--color-red);
   color: var(--color-white);
   padding: 10px 20px;
   border-radius: 5px;
+  margin-top: 10px;
 }

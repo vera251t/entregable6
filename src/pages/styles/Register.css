@@ -44,3 +44,10 @@
 .register__btn:hover {
     filter: brightness(1.2);
 }
+.footer__regis {
+    padding: 1rem;
+}
+.footer__regis-h4 a {
+    text-decoration: none;
+    color: var(--color-red);
+}

@@ -1,6 +1,8 @@
 import { useForm } from 'react-hook-form'
 import useAuth from '../hooks/userAuth'
+import { Link } from "react-router-dom";
 import './styles/Register.css'
+
 const RegisterPage = () => {
 
   const { register, handleSubmit, reset } = useForm()
@@ -8,7 +10,6 @@ const RegisterPage = () => {
   
   const submit = data => {
     const url ='https://e-commerce-api-v2.academlo.tech/api/v1/users'
-  
     createUser(url, data)
     reset({
       firstName: '',
@@ -49,6 +50,14 @@ const RegisterPage = () => {
           </form>
         </div>
       </div>
+      <footer className='footer__regis'>
+        <h4 className='footer__regis-h4'>
+          Already have an account?{" "}
+          <Link to="/login">
+            Login in
+          </Link>
+        </h4>
+      </footer>
     </>
   )
 }

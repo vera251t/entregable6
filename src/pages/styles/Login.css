@@ -43,3 +43,10 @@
 .login__btn:hover {
     filter: brightness(1.2);
 }
+.footer__user {
+    padding: 1rem;
+}
+.footer__h4 a {
+    text-decoration: none;
+    color: #515151;
+}
